@@ -9,4 +9,5 @@
 - [x] clone repo & environment setting
 - [x] 그냥 실행. `python train.py`
 - [x] config 하나를 바꿔서 실행 `python train.py +train.minist.input_size=512`
+- [ ] gpu를 지정할 수 있게 config를 바꿔
 - [ ] mnist 말고 간단한 모델을 만들어 본다
