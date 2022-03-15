@@ -15,3 +15,4 @@
 
 ### materials 🗃️
 - hydra 번역 doc : https://pjt3591oo.github.io/hydra_translate/build/html/index.html
+- omegaconf + yaml은 variable 기능이 있음 : https://omegaconf.readthedocs.io/en/latest/usage.html#variable-interpolation
