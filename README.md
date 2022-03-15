@@ -16,4 +16,4 @@
 ### materials 🗃️
 - hydra 번역 doc : https://pjt3591oo.github.io/hydra_translate/build/html/index.html
 - omegaconf + yaml은 variable 기능이 있음 : https://omegaconf.readthedocs.io/en/latest/usage.html#variable-interpolation
-- path 설정은 이렇게 하면 될까? : https://insubkim.tistory.com/162
+- path 설정은 이렇게 하면 될까? : dotenv or https://omegaconf.readthedocs.io/en/latest/custom_resolvers.html#oc-env ? 
