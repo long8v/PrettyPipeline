@@ -9,7 +9,8 @@
 - [x] clone repo & environment setting
 - [x] 그냥 실행. `python train.py`
 - [x] config 하나를 바꿔서 실행 `python train.py +train.minist.input_size=512`
-- [ ] gpu를 지정할 수 있게 config를 바꿔본다
+
+✖️ gpu를 지정할 수 있게 config를 바꿔본다(cuda, torch 호환 문제 때문에 안됨)
 
 `hydra.utils.instantiate`로 객체도 만들 수가 있다
 ```
