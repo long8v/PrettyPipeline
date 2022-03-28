@@ -1,0 +1,9 @@
+_target_: src.models.unsmile_module.UnsmileLitModule
+lr: 0.001
+weight_decay: 0.0005
+
+net:
+  _target_: src.models.components.simple_transformer_net.SimpleTransformerNet
+  pretrained_path: ${pretrained_path}
+  hidden_size: 512
+  output_size: 11

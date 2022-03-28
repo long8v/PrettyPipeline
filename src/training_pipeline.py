@@ -18,7 +18,8 @@ log = utils.get_logger(__name__)
 
 
 def train(config: DictConfig) -> Optional[float]:
-    """Contains the training pipeline.
+    """
+    Contains the training pipeline.
     Can additionally evaluate model on a testset, using best weights achieved during training.
 
     Args:
@@ -42,7 +43,6 @@ def train(config: DictConfig) -> Optional[float]:
     # Init lightning datamodule
     log.info(f"Instantiating datamodule <{config.datamodule._target_}>")
     datamodule: LightningDataModule = hydra.utils.instantiate(config.datamodule)
-
     # Init lightning model
     log.info(f"Instantiating model <{config.model._target_}>")
     model: LightningModule = hydra.utils.instantiate(config.model)
